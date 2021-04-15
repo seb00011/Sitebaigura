@@ -87,6 +87,12 @@ h2{
     text-transform: uppercase;
     text-align: center;
 }
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
 
 .divpresta{
 
@@ -96,6 +102,26 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+.divformulaire{
+    
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+line-height: 250%;
+}
+ input{
+     width: 500px;
+     height: 55px;
+ }
 
 .presta{
     
@@ -152,3 +178,23 @@ h2{
     background-color: white;
 }
 
+#fondcontact{
+    height: auto;
+    width: auto;
+    background-image: url(carousel1.jpg);
+
+background-size: cover;
+}
+
+#horaires{
+    width:40%;
+    text-align: right ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+span{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 28px;
+}
